@@ -1,0 +1,231 @@
+
+@media (min-width: 1025px) {
+	header{
+	font-family: 'Oswald', sans-serif;
+	width: 90%;
+	margin: 0 auto;
+	height: 80px;
+	position: relative;
+	}
+
+	.columns{
+	display: flex;
+	justify-content: center;
+	}
+
+	h1{
+	position: absolute;
+	left: 1000px;
+	margin-bottom: 10px;
+	bottom: 8px;
+	font-size: 36px;
+	}
+
+	h2{
+	position: absolute;
+	left: 1141px;
+	bottom: -30px;
+	}
+
+	.top-line{
+		position:relative;
+		margin: 0 auto;
+		width: 70%;
+	}
+
+	.profile-photo{
+	width: 65%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+	}
+
+	.featured-line{
+		width: 70%;
+	}
+
+	h3{
+	position: relative;
+	left: 310px;
+	bottom: -20px;
+	font-size: 36px;
+	font-family: 'Oswald', sans-serif;
+	margin: 0px;
+	}
+
+	.logo{
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	left: 250px;
+	bottom: -10px;
+	}
+
+	.columns {
+    padding-top: 45px;
+    position: relative;
+    left: 36px;
+	}
+
+	.article1, .article2, .article3{
+	width: 300px;
+	height: 300px;
+	margin: 10px;
+	}
+
+	.photo{
+	width: 300px;
+	height:220px;
+	border: 1px solid;
+	}
+}
+
+@media (max-width: 412px) {
+	.profile-photo{
+	width: 100%;
+	display: block;
+	}
+
+	h1 {
+    font-size: 24px;
+    position: absolute;
+    left: 50px;
+	}
+
+	h2{
+	font-size: 22px;
+	position: absolute;
+	left: 50px;
+	bottom: -20px;
+	}
+
+	header{
+	font-family: 'Oswald', sans-serif;
+	width: 60%;
+	margin: 0 auto;
+	height: 80px;
+	position: relative;
+	}
+
+	.logo{
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	left: -50px;
+	bottom: -10px;
+	}
+
+	h3{
+	position: relative;
+	bottom: -20px;
+	font-size: 25px;
+	font-family: 'Oswald', sans-serif;
+	margin: 0px;
+	text-align: center;
+	}
+
+	.columns {
+    padding-top: 45px;
+    position: relative;
+    left: 36px;
+	}
+
+	.article1, .article2, .article3{
+	width: 300px;
+	height: 300px;
+	margin: 10px;
+	}
+
+	.photo{
+	width: 300px;
+	height:220px;
+	border: 1px solid;
+	}
+}
+
+@media(min-width: 768px) and (max-width: 1024px){
+	.profile-photo {
+    width: 100%;
+    display: block;
+	}
+
+	header{
+	position: relative;
+    width: 100%;
+    height: 200px;
+	}
+
+	h1{    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    position: absolute;
+    left: 240px;
+	}
+
+	h2{
+	font-size: 45px;
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    left: 242px;
+    bottom: -10px;
+	}
+
+	.logo{
+	width: 200px;
+    position: absolute;
+    left: 30px;
+	}
+
+	h3{
+	bottom: -20px;
+    font-size: 45px;
+    font-family: 'Oswald', sans-serif;
+    margin: 0px;
+    text-align: center;
+	}
+
+	.photo {
+    width: 500px;
+    height: auto;
+    border: 1px solid;
+    margin: auto;
+    display: block;
+	}
+
+	.article1, .article2, .article3 {
+    width: 97%;
+    height: 450px;
+    margin: 10px;
+	}
+
+	.article1{
+		margin-top: 80px;
+	}
+}
+
+body{
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.photo-article{
+	font-family: 'Oswald', sans-serif;
+}
+
+h4{
+	font-size: 27px;
+	text-align: center;
+	margin: 0px;
+}
+
+.featured-work{
+	position: relative;
+	height: 40px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.articlep{
+	text-align: center;
+}
